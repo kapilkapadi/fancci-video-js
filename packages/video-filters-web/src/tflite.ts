@@ -1,4 +1,4 @@
-// @ts-expect-error - module is not declared
+// @ts-ignore - module is not declared
 import { createTFLiteSIMDModule } from './tflite-simd.js';
 import { packageName, version } from './version';
 
