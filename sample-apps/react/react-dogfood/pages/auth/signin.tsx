@@ -33,13 +33,13 @@ export default function SignIn({
     <div className="rd__auth">
       <div className="rd__auth-content">
         <img
-          className="rd__auth-image"
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/auth.png`}
+          className="fc-logo"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-logo.png`}
           alt="Sign in"
         />
         <h1 className="rd__auth-heading">
-          {t('Stream')}
-          <span>{t('[Video Calling]')}</span>
+          {t('Cam Test / Demo')}
+          {/* <span>{t('[Video Calling]')}</span> */}
           {isDemoEnvironment && t('Demo')}
         </h1>
         <ul className="rd__auth-list">

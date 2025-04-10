@@ -30,7 +30,7 @@ export default function App({
       basePath={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/api/auth`}
     >
       <Head>
-        <title>Stream Calls</title>
+        <title>FANCCI Cam Demo</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <AppEnvironmentProvider>

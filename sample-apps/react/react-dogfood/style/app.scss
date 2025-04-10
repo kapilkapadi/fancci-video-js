@@ -50,13 +50,16 @@ input {
 }
 
 body {
-  background-color: var(--str-video__base-color4);
-  color: var(--str-video__text-color1);
+  background-color: #fff !important;
+  color: #000 !important;
 }
-
+img.fc-logo {
+  width: 360px;
+  height: auto;
+}
 .str-video {
-  background-color: var(--str-video__base-color4);
-  color: var(--str-video__text-color1);
+  background-color: #fff;
+  color: #000;
   height: 100vh;
   height: 100dvh;
   display: flex;

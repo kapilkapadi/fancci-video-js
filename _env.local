@@ -1,0 +1,46 @@
+# Shared secrets
+GOOGLE_CLIENT_SECRET=
+GOOGLE_CLIENT_ID=
+NEXTAUTH_SECRET=8a53a3fcbca87fc8705f786a2a87ca4905b2e53902912d7d4eccead45627193c
+GLEAP_API_KEY=
+NEXT_PUBLIC_SUPABASE_EDGE_URL=https://sjumysftqlrymxcpqrpl.supabase.co/functions/v1/stream-token
+
+# Stream API
+STREAM_API_KEY=q8usdgarr6kf
+STREAM_SECRET_KEY="qran95umvdbz6yr8t6kebj24d4hfdktudcdxn25w6b6m9bzdx9m7qmza9q5fpctn"
+
+### Local test environment (uncomment next lines)
+NEXT_PUBLIC_STREAM_API_URL=http://localhost:3030/video
+STREAM_API_KEY=q8usdgarr6kf
+STREAM_SECRET_KEY="qran95umvdbz6yr8t6kebj24d4hfdktudcdxn25w6b6m9bzdx9m7qmza9q5fpctn"
+
+# Some configuration properties
+### Lets you skip the lobby and directly join the call
+NEXT_PUBLIC_SKIP_LOBBY=false
+
+### Lets you disable the chat
+NEXT_PUBLIC_DISABLE_CHAT=false
+
+### Lets you override the app environment to use
+NEXT_PUBLIC_APP_ENVIRONMENT=pronto
+
+### Lets you configure the mapbox token - if not set, the map will not be displayed
+NEXT_PUBLIC_MAPBOX_GL_TOKEN=pk.eyJ1Ijoia2thcGFkaSIsImEiOiJjbTlhMnlsMmwwMWZwMm5zNDB4eW92ZTRmIn0.REJdNsXgIc3AyPG2eB-CNg
+
+### Lets you configure the google analytics and tag manager ids
+NEXT_PUBLIC_GA_ID=
+NEXT_PUBLIC_GTM_ID=
+
+### Lets you configure the base path for the app, defaults to /
+NEXT_PUBLIC_BASE_PATH=
+
+### Lets you configure the Sentry DSN
+NEXT_PUBLIC_SENTRY_DSN=https://923c7b6f20c86472bcfd28e96b47eda7@o4509123238363136.ingest.de.sentry.io/4509123241181264
+
+### Lets you configure the token generator
+SAMPLE_APP_CALL_CONFIG='{
+  "pronto": {
+    "apiKey": "q8usdgarr6kf",
+    "secret": "qran95umvdbz6yr8t6kebj24d4hfdktudcdxn25w6b6m9bzdx9m7qmza9q5fpctn"
+  }
+}'

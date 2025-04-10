@@ -81,13 +81,13 @@ const HomeContent = () => {
       <div className="rd__home">
         <div className="rd__home-content">
           <img
-            className="rd__home-image"
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/home.png`}
+            className="fc-logo"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-logo.png`}
             alt="Home"
           />
           <h1 className="rd__home-heading">
-            {t('Stream')}
-            <span>{t('[Video Calling]')}</span>
+            {t('Cam Test / Demo')}
+            {/* <span>{t('[Video Calling]')}</span> */}
             {isDemoEnvironment && t('Demo')}
           </h1>
           <p className="rd__home-description">
@@ -126,14 +126,14 @@ const HomeContent = () => {
             <Icon className="rd__link__icon" icon="camera-add" />
             {t('Start new call')}
           </Link>
-          <Link
+          {/* <Link
             href={`/join/${meetingId()}?type=restricted`}
             className="rd__home-new rd__link rd__link--faux-button"
             data-testid="create-and-join-restricted-meeting-button"
           >
             <Icon className="rd__link__icon" icon="camera-add" />
             {t('Start new restricted call')}
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

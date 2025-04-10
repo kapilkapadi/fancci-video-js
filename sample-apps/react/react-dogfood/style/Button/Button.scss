@@ -1,22 +1,37 @@
+a.rd__link--faux-button {
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #000;
+  transition: all 0.4s;
+}
+a.rd__link--faux-button:hover {
+  background-color: #000;
+  transform: scale(1.04);
+}
+a.rd__link--faux-button .rd__link__icon {
+  height: 30px;
+}
 button.rd__button,
 .rd__button {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--str-video__border-radius-md);
-  padding: calc(var(--str-video__spacing-xs) - 1px) var(--str-video__spacing-lg);
+  border-radius: 100px;
+  padding: 10px;
   text-align: center;
   width: 100%;
-  font-size: var(--str-video__font-size-sm);
-  line-height: var(--str-video__spacing-lg);
   font-weight: 500;
   border: 1px solid transparent;
-  color: var(--str-video__text-color1);
-  background: none;
+  color: #fff;
+  background: #000;
+  font-size: 18px;
+  transition: all 0.4s;
 
   &:hover {
-    background-color: var(--str-video__button-default-hover);
+    background-color: #000;
     cursor: pointer;
+    transform: scale(1.04);
   }
 
   &__icon {
@@ -35,10 +50,10 @@ button.rd__button,
   }
 
   &--primary {
-    background-color: var(--str-video__button-primary-active);
+    background-color: #000;
 
     &:hover {
-      background-color: var(--str-video__button-primary-hover);
+      background-color: #000;
       cursor: pointer;
     }
 
