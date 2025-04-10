@@ -72,7 +72,7 @@ img.fc-logo {
   gap: 1rem;
   padding: 0.5rem;
   overflow-x: hidden;
-  background-color: var(--str-video__base-color4);
+  background-color: #fff;
 
   .rd__stage {
     flex: 1;
@@ -105,4 +105,43 @@ img.fc-logo {
 button.rd__button.rd__stop-pip {
   margin: auto;
   width: auto;
+}
+
+.rd__lobby-edge-network,
+.str-video__dropdown-option--selected {
+  background-color: #333 !important;
+}
+.rd__lobby-edge-network__description,
+.str-video__dropdown {
+  color: #fff;
+}
+.rd__tabmodal-sidebar {
+  background-color: #eee !important;
+}
+.rd__tabmodal-content {
+  background-color: #fff !important;
+}
+.rd__tab-panel__close,
+.rd__tab--active,
+.str-video__dropdown-list,
+button.rd__button--secondary,
+.rd__button--secondary {
+  background-color: #000 !important;
+  color: #fff;
+}
+.rd__tab:hover {
+  color: #fff;
+  background: #333 !important;
+}
+.str-video__dropdown-selected:hover {
+  border: 1px solid #333 !important;
+}
+.str-video__menu-container {
+  max-height: 300px !important;
+}
+.rd__tab-panel__note {
+  color: #333 !important;
+}
+.str-video__icon {
+  background-color: #eee !important;
 }
