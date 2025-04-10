@@ -9,7 +9,7 @@ import { useIsProntoEnvironment } from '../context/AppEnvironmentContext';
 import { Icon, MenuToggle } from '@stream-io/video-react-sdk';
 
 export const HomeButton = () => (
-  <Link href="/" data-testid="home-button">
+  <Link href="/" data-testid="home-button" className="hide">
     <img
       src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/stream-logo.png`}
       alt="Stream logo"

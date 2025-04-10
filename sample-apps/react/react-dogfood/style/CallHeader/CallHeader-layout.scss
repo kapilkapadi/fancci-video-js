@@ -1,10 +1,13 @@
+.hide {
+  display: none !important;
+}
 .rd__call-header {
-  display: none;
+  display: flex;
   align-items: center;
 
   justify-content: space-between;
 
-  background-color: var(--str-video__base-color7);
+  background-color: transparent;
   border-radius: var(--str-video__border-radius-xxl);
 
   padding: var(--str-video__spacing-lg);
@@ -52,7 +55,7 @@
 }
 
 .rd__call-header__documentation {
-  display: flex;
+  display: none;
   gap: var(--str-video__spacing-md);
   align-items: center;
 
