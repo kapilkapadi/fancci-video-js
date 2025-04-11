@@ -178,7 +178,8 @@ button.rd__button--secondary,
 }
 .rd__feedback-input,
 .rd__feedback-textarea {
-  background-color: #fff;
-  padding: 10px;
+  background-color: #fff !important;
+  color: #000 !important;
+  padding: 10px !important;
   font-size: 16px;
 }
