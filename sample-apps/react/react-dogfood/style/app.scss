@@ -107,23 +107,23 @@ button.rd__button.rd__stop-pip {
   width: auto;
 }
 
-.rd__lobby-edge-network,
 .str-video__dropdown-option--selected {
-  background-color: #333 !important;
+  background-color: #eee !important;
+  color: #000;
 }
 .rd__lobby-edge-network__description,
 .str-video__dropdown {
   color: #fff;
 }
-.rd__tabmodal-sidebar {
+.rd__tabmodal-sidebar,
+.str-video__dropdown-option:hover,
+.rd__tab-panel__close {
   background-color: #eee !important;
 }
 .rd__tabmodal-content {
   background-color: #fff !important;
 }
-.rd__tab-panel__close,
 .rd__tab--active,
-.str-video__dropdown-list,
 button.rd__button--secondary,
 .rd__button--secondary {
   background-color: #000 !important;
@@ -132,6 +132,12 @@ button.rd__button--secondary,
 .rd__tab:hover {
   color: #fff;
   background: #333 !important;
+}
+.str-video__dropdown-selected {
+  border-radius: 10px !important;
+  padding-left: 7px !important;
+  background: #fff;
+  color: #000;
 }
 .str-video__dropdown-selected:hover {
   border: 1px solid #333 !important;
@@ -142,6 +148,37 @@ button.rd__button--secondary,
 .rd__tab-panel__note {
   color: #333 !important;
 }
-.str-video__icon {
-  background-color: #eee !important;
+.rd__tab-panel__content {
+  padding: 15px 25px;
+}
+.str-video__icon,
+.str-video__dropdown-option--selected .str-video__icon,
+.rd__tab-panel__close:hover .str-video__icon {
+  background-color: #000;
+}
+.str-video__dropdown-list {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #999;
+}
+.str-video__composite-button__button-group {
+  background-color: #666;
+}
+.str-video__composite-button__button-group.str-video__composite-button__button-group--active {
+  background-color: #000;
+}
+.rd__tab--active .str-video__icon,
+.rd__tab:hover .str-video__icon,
+.str-video__composite-button__button .str-video__icon,
+.rd__button .str-video__icon {
+  background-color: #fff;
+}
+.str-video__device-settings__device-kind {
+  color: #fff;
+}
+.rd__feedback-input,
+.rd__feedback-textarea {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 16px;
 }
