@@ -162,7 +162,6 @@ button.rd__button--secondary,
 .str-video__composite-button__button-group {
   background-color: #666;
 }
-.str-video__composite-button__button-group.str-video__composite-button__button-group--active,
 .str-video__call-controls__button--variant-active:hover {
   background-color: #000;
 }
@@ -176,11 +175,16 @@ button.rd__button--secondary,
 .str-video__participant-list-header__close-button .str-video__icon,
 .str-video__call-controls__button--variant-active .str-video__icon,
 .str-video__end-call__leave .str-video__icon,
-.str-video__generic-menu--item .str-video__icon {
+.str-video__generic-menu--item .str-video__icon,
+.str-video__end-recording__header .str-video__icon {
   background-color: #fff;
 }
 .str-video__device-settings__device-kind,
-.str-video__generic-menu .str-video__generic-menu--item button {
+.str-video__generic-menu .str-video__generic-menu--item button,
+.str-video__participant-view
+  .str-video__participant-details
+  .str-video__participant-details__name,
+.rd__documentation-button__menu {
   color: #fff;
 }
 .rd__feedback-input,
@@ -209,7 +213,9 @@ button.rd__button--secondary,
 .rd__header__latency,
 .rd__user-session__user,
 .str-video__call-stats,
-.str-video__notification .str-video__notification__message {
+.str-video__notification .str-video__notification__message,
+.str-video__end-recording__header,
+.rd__sidebar .rd__sidebar__container {
   color: #fff !important;
 }
 .str-video__video-placeholder .str-video__video-placeholder__initials-fallback,
@@ -238,4 +244,7 @@ input[type='radio'] {
 }
 .rd__tab-panel__close {
   background-color: #000 !important;
+}
+.str-video__composite-button__button-group.str-video__composite-button__button-group--active {
+  background-color: #444;
 }
