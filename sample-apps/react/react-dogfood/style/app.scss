@@ -243,7 +243,8 @@ input[type='radio'] {
   border-inline-end-color: #000;
   border-inline-start-color: #000;
 }
-.rd__tab-panel__close {
+.rd__tab-panel__close,
+.str-video__menu-container {
   background-color: #000 !important;
 }
 .str-video__composite-button__button-group.str-video__composite-button__button-group--active,
@@ -252,4 +253,8 @@ input[type='radio'] {
 }
 .str-video__composite-button__button-group.str-video__composite-button__button-group--active:hover {
   background-color: #333;
+}
+.rd__documentation-button__menu a.rd__button {
+  font-size: 16px;
+  padding: 2px 10px;
 }
