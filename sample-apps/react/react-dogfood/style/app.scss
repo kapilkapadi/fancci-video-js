@@ -172,7 +172,11 @@ button.rd__button--secondary,
 .str-video__composite-button__button .str-video__icon,
 .rd__button .str-video__icon,
 .str-video__call-controls__button.str-video__menu-toggle-button
-  .str-video__icon {
+  .str-video__icon,
+.str-video__call-controls__button .str-video__icon,
+.str-video__participant-list-header__close-button .str-video__icon,
+.str-video__call-controls__button--variant-active .str-video__icon,
+.str-video__end-call__leave .str-video__icon {
   background-color: #fff;
 }
 .str-video__device-settings__device-kind {
@@ -184,6 +188,7 @@ button.rd__button--secondary,
   color: #000 !important;
   padding: 10px !important;
   font-size: 16px;
+  border-radius: 7px !important;
 }
 .str-video__device-settings__device-kind
   .str-video__device-settings__option
@@ -202,9 +207,25 @@ button.rd__button--secondary,
 .rd__header__elapsed-time,
 .rd__header__latency,
 .rd__user-session__user,
-.str-video__call-stats {
+.str-video__call-stats,
+.str-video__notification .str-video__notification__message {
   color: #fff !important;
 }
-.str-video__video-placeholder .str-video__video-placeholder__initials-fallback {
+.str-video__video-placeholder .str-video__video-placeholder__initials-fallback,
+.str-video__call-controls__button--variant-active {
   background-color: #000;
+  color: #fff;
+}
+.rd__input:focus,
+.rd__input:focus-visible,
+.rd__textarea:focus,
+.rd__textarea:focus-visible {
+  outline: none !important;
+  border-color: #333;
+}
+input[type='radio'] {
+  accent-color: #232323;
+}
+.str-video__button:not([disabled]):hover {
+  background-color: #f00;
 }
