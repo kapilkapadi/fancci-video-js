@@ -170,7 +170,9 @@ button.rd__button--secondary,
 .rd__tab--active .str-video__icon,
 .rd__tab:hover .str-video__icon,
 .str-video__composite-button__button .str-video__icon,
-.rd__button .str-video__icon {
+.rd__button .str-video__icon,
+.str-video__call-controls__button.str-video__menu-toggle-button
+  .str-video__icon {
   background-color: #fff;
 }
 .str-video__device-settings__device-kind {
@@ -182,4 +184,27 @@ button.rd__button--secondary,
   color: #000 !important;
   padding: 10px !important;
   font-size: 16px;
+}
+.str-video__device-settings__device-kind
+  .str-video__device-settings__option
+  input[type='radio']:checked,
+.str-video__device-settings__device-kind
+  .str-video__option
+  input[type='radio']:checked {
+  border-color: #000 !important;
+}
+.str-video__call-stats
+  .str-video__call-stats__card
+  .str-video__call-stats__card-label,
+.str-video__call-stats
+  .str-video__call-stats__card
+  .str-video__call-stats__card-value,
+.rd__header__elapsed-time,
+.rd__header__latency,
+.rd__user-session__user,
+.str-video__call-stats {
+  color: #fff !important;
+}
+.str-video__video-placeholder .str-video__video-placeholder__initials-fallback {
+  background-color: #000;
 }
