@@ -248,13 +248,16 @@ input[type='radio'] {
   background-color: #000 !important;
 }
 .str-video__composite-button__button-group.str-video__composite-button__button-group--active,
-.str-video__avatar--initials-fallback {
+.str-video__avatar--initials-fallback,
+.str-video__call-controls
+  .str-video__reactions-menu
+  .str-video__reactions-menu__button:hover {
   background-color: #444;
 }
 .str-video__composite-button__button-group.str-video__composite-button__button-group--active:hover {
   background-color: #333;
 }
 .rd__documentation-button__menu a.rd__button {
-  font-size: 16px;
+  font-size: 14px;
   padding: 2px 10px;
 }
