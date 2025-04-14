@@ -176,7 +176,8 @@ button.rd__button--secondary,
 .str-video__call-controls__button--variant-active .str-video__icon,
 .str-video__end-call__leave .str-video__icon,
 .str-video__generic-menu--item .str-video__icon,
-.str-video__end-recording__header .str-video__icon {
+.str-video__end-recording__header .str-video__icon,
+.str-video__speech-indicator .str-video__speech-indicator__bar {
   background-color: #fff;
 }
 .str-video__device-settings__device-kind,
@@ -245,6 +246,10 @@ input[type='radio'] {
 .rd__tab-panel__close {
   background-color: #000 !important;
 }
-.str-video__composite-button__button-group.str-video__composite-button__button-group--active {
+.str-video__composite-button__button-group.str-video__composite-button__button-group--active,
+.str-video__avatar--initials-fallback {
   background-color: #444;
+}
+.str-video__composite-button__button-group.str-video__composite-button__button-group--active:hover {
+  background-color: #333;
 }
