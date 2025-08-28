@@ -268,7 +268,7 @@ input[type='radio'] {
   border-radius: 10px;
 }
 
-@include respond-above(sm) {
+@media (min-width: 600px) {
   img.fc-logo {
     width: 90%;
   }
