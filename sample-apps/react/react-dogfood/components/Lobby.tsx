@@ -104,6 +104,12 @@ export const Lobby = ({ onJoin, mode = 'regular' }: LobbyProps) => {
         <LatencyMap sourceData={edges} />
         <div className="rd__lobby-container">
           <div className="rd__lobby-content">
+            <div className="fnccam-logo">
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-cam.png`}
+                alt="Home"
+              />
+            </div>
             {mode !== 'anon' && (
               <>
                 <h1 className="rd__lobby-heading">
