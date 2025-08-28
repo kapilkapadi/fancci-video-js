@@ -30,13 +30,13 @@ export default function Guest() {
           <div className="rd__guest-page__header">
             <img
               className="rd__home-image"
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/home.png`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-logo.png`}
               alt="Home"
             />
-            <h1 className="rd__home-heading">
+            {/* <h1 className="rd__home-heading">
               Stream
               <span>[Video Calling]</span>
-            </h1>
+            </h1> */}
             <p className="rd__home-description">
               Start a new call or join an existing one by providing its Call ID
             </p>

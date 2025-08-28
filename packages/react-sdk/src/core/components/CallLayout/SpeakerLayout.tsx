@@ -173,6 +173,12 @@ export const SpeakerLayout = ({
     (participantsWithAppliedLimit.length > 0 || isSpeakerScreenSharing);
   return (
     <div className="str-video__speaker-layout__wrapper">
+      <div className="fnccam-logo">
+        <img
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-cam.png`}
+          alt="Home"
+        />
+      </div>
       {!muted && <ParticipantsAudio participants={remoteParticipants} />}
       <div
         className={clsx(
