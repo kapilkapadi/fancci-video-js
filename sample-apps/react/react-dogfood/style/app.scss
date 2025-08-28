@@ -267,3 +267,9 @@ input[type='radio'] {
 .str-video__menu-container {
   border-radius: 10px;
 }
+
+@include respond-above(sm) {
+  img.fc-logo {
+    width: 90%;
+  }
+}

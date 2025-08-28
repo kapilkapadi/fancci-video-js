@@ -65,6 +65,9 @@
   .rd__guest-page__content {
     max-width: 50vw;
   }
+  .rd__home-image {
+    width: 90%;
+  }
 }
 
 @include respond-above(md) {
