@@ -82,7 +82,7 @@ const HomeContent = () => {
         <div className="rd__home-content">
           <img
             className="fc-logo"
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-logo.png`}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-cam.png`}
             alt="Home"
           />
           <h1 className="rd__home-heading">

@@ -138,7 +138,7 @@ export const Feedback = ({ callId, inMeeting = true }: Props) => {
       <div className="rd__feedback rd__feedback--sent">
         <img
           className="rd__feedback-image"
-          src={`${basePath}/fancci-logo.png`}
+          src={`${basePath}/fancci-cam.png`}
           alt="Feedback"
         />
 
@@ -180,7 +180,7 @@ export const Feedback = ({ callId, inMeeting = true }: Props) => {
     <div className="rd__feedback">
       <img
         className="rd__feedback-image"
-        src={`${basePath}/fancci-logo.png`}
+        src={`${basePath}/fancci-cam.png`}
         alt="Feedback"
       />
       <h4 className="rd__feedback-heading">

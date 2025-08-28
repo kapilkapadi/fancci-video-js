@@ -34,7 +34,7 @@ export default function SignIn({
       <div className="rd__auth-content">
         <img
           className="fc-logo"
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-logo.png`}
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-cam.png`}
           alt="Sign in"
         />
         <h1 className="rd__auth-heading">
