@@ -157,13 +157,13 @@ export const ActiveCall = (props: ActiveCallProps) => {
         />
 
         <PermissionRequests />
+        <div className="fnccam-logo">
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-cam.png`}
+            alt="Home"
+          />
+        </div>
         <div className="rd__layout">
-          <div className="fnccam-logo">
-            <img
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/fancci-cam.png`}
-              alt="Home"
-            />
-          </div>
           <div className="rd__layout__stage-container">
             {pipWindow ? (
               createPipPortal(
